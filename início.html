@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMIE</title>
+  <link rel="stylesheet" href="imagem.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Sistema Inteligente de Monitoramento Energético (SMIE)</h1>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#monitoramento">Monitoramento</a>
+      <a href="#dicas">Dicas de Economia</a>
+      <a href="#equipe">Equipe</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Bem-vindo!</h2>
+    <p>Nosso sistema ajuda você a monitorar o consumo energético e economizar.</p>
+    <div class="dados-destaque">
+      <div>
+        <h3>Consumo Atual</h3>
+        <p id="consumoAtual">-- kW</p>
+      </div>
+      <div>
+        <h3>Energia Total</h3>
+        <p id="energiaTotal">-- kWh</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="monitoramento">
+    <h2>Monitoramento em Tempo Real</h2>
+    <canvas id="graficoConsumo"></canvas>
+  </section>
+
+  <section id="dicas">
+    <h2>Dicas de Economia</h2>
+    <ul>
+      <li>Evite deixar aparelhos em modo standby.</li>
+      <li>Substitua lâmpadas incandescentes por LED.</li>
+      <li>Use eletrodomésticos eficientes (selo Procel A).</li>
+      <li>Apague as luzes ao sair de um ambiente para evitar consumo desnecessário.</li>
+      <li>Durante o dia, mantenha cortinas e janelas abertas para reduzir o uso de iluminação artificial.</li>
+      <li>Use ferramentas ou dispositivos de monitoramento, como o sistema SMIE, para identificar desperdícios e ajustar seus hábitos.</li>
+    </ul>
+  </section>
+
+  <section id="equipe">
+    <h2>Equipe</h2>
+    <ul>
+      <li>Caio Oliveira</li>
+      <li>Felipe Vieira</li>
+      <li>Matheus Emanuel</li>
+      <li>João Felipe</li>
+      <li>Ian Rolszt</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 SMIE. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0fa0e4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 900px;
+    background: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .dados-destaque {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .dados-destaque div {
+    background-color: #e0f7fa;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #1097e6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
